@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasibur Rahman | Creative Graphic & Web Designer Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Syne & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0D0D0D;
+            scroll-behavior: smooth;
+        }
+        .heading-font {
+            font-family: 'Syne', sans-serif;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0D0D0D;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #252525;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #00F2FE;
+        }
+    </style>
+</head>
+<body class="text-white antialiased overflow-x-hidden">
+
+    <!-- Header / Navigation -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-[#0D0D0D]/80 backdrop-blur-md border-b border-white/5">
+        <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-extrabold tracking-wider heading-font">
+                HASIB<span class="text-[#00F2FE]">.</span>
+            </div>
+            
+            <!-- Nav Links -->
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-400">
+                <a href="#home" class="hover:text-white transition">Home</a>
+                <a href="#work" class="hover:text-white transition">Selected Work</a>
+                <a href="#expertise" class="hover:text-white transition">Expertise</a>
+                <a href="#philosophy" class="hover:text-white transition">Philosophy</a>
+                <a href="#contact" class="hover:text-white transition">Contact</a>
+            </div>
+            
+            <!-- Action Button -->
+            <a href="https://wa.me/8801629403147" target="_blank" class="bg-white/5 hover:bg-white/10 text-white text-xs font-semibold px-5 py-2.5 rounded-full border border-white/10 transition backdrop-blur-sm">
+                Let's Talk
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative max-w-7xl mx-auto px-6 pt-32 pb-24 flex flex-col items-center text-center min-h-[90vh] justify-center">
+        <!-- Background Ambient Glow -->
+        <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] md:w-[600px] h-[300px] bg-[#00F2FE]/10 rounded-full blur-[130px] pointer-events-none"></div>
+
+        <!-- Availability Badge -->
+        <div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-1.5 rounded-full text-xs font-medium tracking-wide text-gray-300 mb-8 backdrop-blur-md">
+            <span class="w-2 h-2 rounded-full bg-[#00F2FE] inline-block animate-pulse"></span>
+            Available for Freelance & Contracts
+        </div>
+
+        <!-- Main Heading -->
+        <h1 class="heading-font text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight max-w-5xl leading-[1.1] mb-6">
+            Crafting Digital Experiences That <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#00F2FE] to-[#4FACFE]">Demand Attention.</span>
+        </h1>
+
+        <!-- Subheading -->
+        <p class="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl font-normal leading-relaxed mb-10">
+            Hi, I’m <span class="text-white font-medium">Hasibur Rahman</span>. A Graphic & Web Designer specializing in bold brand identities, high-converting social visuals, and modern UI concepts that help businesses stand out.
+        </p>
+
+        <!-- Call To Actions -->
+        <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto z-10">
+            <a href="#work" class="bg-white hover:bg-gray-200 text-black text-sm font-bold px-8 py-4 rounded-full transition shadow-lg shadow-white/5 text-center">
+                View My Work
+            </a>
+            <a href="https://wa.me/8801629403147" target="_blank" class="inline-flex items-center justify-center gap-2 bg-[#1A1A1A] hover:bg-[#252525] text-white text-sm font-semibold px-8 py-4 rounded-full border border-white/10 transition">
+                <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.863-9.855.001-2.633-1.02-5.107-2.877-6.966C16.602 1.865 14.13 1.84 11.5 1.84c-5.438 0-9.863 4.42-9.866 9.856-.001 1.702.461 3.361 1.337 4.815L1.93 22.07l5.717-1.501z"/>
+                </svg>
+                Let's Chat on WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Selected Work Section -->
+    <section id="work" class="max-w-7xl mx-auto px-6 py-24 border-t border-white/5">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+            <div>
+                <span class="text-xs font-bold tracking-widest text-[#00F2FE] uppercase block mb-2">Portfolio</span>
+                <h2 class="heading-font text-3xl sm:text-4xl font-extrabold">Selected Work</h2>
+            </div>
+            <p class="text-gray-400 max-w-md mt-4 md:mt-0 text-sm sm:text-base">
+                A curated selection of projects combining modern aesthetics with strategic purpose.
+            </p>
+        </div>
+
+        <!-- Portfolio Bento Grid Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <!-- Project 1 (Large Card) -->
+            <div class="md:col-span-2 group relative overflow-hidden rounded-3xl bg-[#1A1A1A] border border-white/5 h-[350px] sm:h-[450px] flex flex-col justify-end p-8 transition duration-300 hover:border-[#00F2FE]/30">
+                <!-- Placeholder Graphics inside card to make it look ready -->
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-10"></div>
+                <div class="absolute inset-0 flex items-center justify-center opacity-20 group-hover:scale-105 transition duration-500">
+                    <div class="w-4/5 h-3/4 border-2 border-dashed border-gray-500 rounded-2xl flex items-center justify-center heading-font text-lg">UI/UX Concept Mockup</div>
+                </div>
+                
+                <div class="z-20">
+                    <span class="text-xs font-semibold text-[#00F2FE] tracking-wider uppercase bg-[#00F2FE]/10 px-3 py-1 rounded-full inline-block mb-3">Web & UI/UX Design</span>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-2">Modern SaaS Landing Page & UI Concept</h3>
+                    <p class="text-gray-400 text-sm max-w-md hidden sm:block">Clean dashboard layouts optimized for visual hierarchy and smooth user journeys.</p>
+                </div>
+            </div>
+
+            <!-- Project 2 (Standard Card) -->
+            <div class="group relative overflow-hidden rounded-3xl bg-[#1A1A1A] border border-white/5 h-[350px] sm:h-[450px] flex flex-col justify-end p-8 transition duration-300 hover:border-[#00F2FE]/30">
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-10"></div>
+                <div class="absolute inset-0 flex items-center justify-center opacity-20 group-hover:scale-105 transition duration-500">
+                    <div class="w-3/4 h-3/4 border border-gray-500 rounded-full flex items-center justify-center heading-font text-3xl font-black text-center">LOGO</div>
+                </div>
+                
+                <div class="z-20">
+                    <span class="text-xs font-semibold text-[#00F2FE] tracking-wider uppercase bg-[#00F2FE]/10 px-3 py-1 rounded-full inline-block mb-3">Brand Identity</span>
+                    <h3 class="text-xl font-bold mb-2">Apex Corporate Identity System</h3>
+                    <p class="text-gray-400 text-sm hidden sm:block">Complete visual identity system including logo construction, typography, and core palette.</p>
+                </div>
+            </div>
+
+            <!-- Project 3 (Standard Card) -->
+            <div class="group relative overflow-hidden rounded-3xl bg-[#1A1A1A] border border-white/5 h-[350px] sm:h-[450px] flex flex-col justify-end p-8 transition duration-300 hover:border-[#00F2FE]/30">
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-10"></div>
+                <div class="absolute inset-0 flex items-center justify-center opacity-30 group-hover:scale-105 transition duration-500">
+                    <div class="w-5/6 h-1/2 bg-gradient-to-tr from-cyan-900 to-purple-900 rounded-xl shadow-2xl p-4 flex flex-col justify-between">
+                        <div class="h-4 w-12 bg-white/20 rounded"></div>
+                        <div class="h-8 w-full bg-white/10 rounded"></div>
+                    </div>
+                </div>
+                
+                <div class="z-20">
+                    <span class="text-xs font-semibold text-[#00F2FE] tracking-wider uppercase bg-[#00F2FE]/10 px-3 py-1 rounded-full inline-block mb-3">Social Media</span>
+                    <h3 class="text-xl font-bold mb-2">High-CTR YouTube Thumbnails & Banners</h3>
+                    <p class="text-gray-400 text-sm hidden sm:block">Bold, high-contrast visual structures tailored to capture audience attention instantly.</p>
+                </div>
+            </div>
+
+            <!-- Project 4 (Large Card) -->
+            <div class="md:col-span-2 group relative overflow-hidden rounded-3xl bg-[#1A1A1A] border border-white/5 h-[350px] sm:h-[450px] flex flex-col justify-end p-8 transition duration-300 hover:border-[#00F2FE]/30">
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-10"></div>
+                <div class="absolute inset-0 flex items-center justify-center opacity-20 group-hover:scale-105 transition duration-500">
+                    <div class="grid grid-cols-3 gap-3 w-4/5">
+                        <div class="h-32 bg-gray-700 rounded-lg"></div>
+                        <div class="h-32 bg-gray-600 rounded-lg"></div>
+                        <div class="h-32 bg-gray-500 rounded-lg"></div>
+                    </div>
+                </div>
+                
+                <div class="z-20">
+                    <span class="text-xs font-semibold text-[#00F2FE] tracking-wider uppercase bg-[#00F2FE]/10 px-3 py-1 rounded-full inline-block mb-3">Marketing Visuals</span>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-2">Digital Marketing Campaign Creatives</h3>
+                    <p class="text-gray-400 text-sm max-w-md hidden sm:block">A structured set of seamless carousel slides and promotional design setups for growth.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Core Expertise Section -->
+    <section id="expertise" class="max-w-7xl mx-auto px-6 py-24 border-t border-white/5">
+        <div class="mb-16">
+            <span class="text-xs font-bold tracking-widest text-[#00F2FE] uppercase block mb-2">Capabilities</span>
+            <h2 class="heading-font text-3xl sm:text-4xl font-extrabold">Core Expertise</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- Card 1 -->
+            <div class="bg-[#1A1A1A] border border-white/5 p-8 rounded-3xl hover:border-white/10 transition">
+                <div class="w-12 h-12 rounded-2xl bg-[#00F2FE]/10 flex items-center justify-center text-[#00F2FE] mb-6">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
+                </div>
+                <h3 class="heading-font text-lg font-bold mb-3">Brand Identity & Logos</h3>
+                <p class="text-sm text-gray-400 leading-relaxed">Crafting memorable logos, custom typographic systems, and rich visual palettes tailored for modern brands.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-[#1A1A1A] border border-white/5 p-8 rounded-3xl hover:border-white/10 transition">
+                <div class="w-12 h-12 rounded-2xl bg-[#00F2FE]/10 flex items-center justify-center text-[#00F2FE] mb-6">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </div>
+                <h3 class="heading-font text-lg font-bold mb-3">Web & UI/UX Design</h3>
+                <p class="text-sm text-gray-400 leading-relaxed">Designing pristine interface layouts with strict focus on user experience, responsiveness, and spacing structure.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-[#1A1A1A] border border-white/5 p-8 rounded-3xl hover:border-white/10 transition">
+                <div class="w-12 h-12 rounded-2xl bg-[#00F2FE]/10 flex items-center justify-center text-[#00F2FE] mb-6">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                </div>
+                <h3 class="heading-font text-lg font-bold mb-3">Social & Thumbnails</h3>
+                <p class="text-sm text-gray-400 leading-relaxed">High-converting social graphics, promotional banners, and strategic YouTube thumbnails engineered to scale CTR.</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-[#1A1A1A] border border-white/5 p-8 rounded-3xl hover:border-white/10 transition">
+                <div class="w-12 h-12 rounded-2xl bg-[#00F2FE]/10 flex items-center justify-center text-[#00F2FE] mb-6">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h3 class="heading-font text-lg font-bold mb-3">Creative Direction</h3>
+                <p class="text-sm text-gray-400 leading-relaxed">Merging experimental visual aesthetics with clear, goal-driven target strategies to maximize real impact.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Philosophy / About Section -->
+    <section id="philosophy" class="max-w-7xl mx-auto px-6 py-24 border-t border-white/5 relative">
+        <div class="absolute right-10 bottom-10 w-[200px] h-[200px] bg-[#4FACFE]/5 rounded-full blur-[90px] pointer-events-none"></div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+            <div class="lg:col-span-5">
+                <span class="text-xs font-bold tracking-widest text-[#00F2FE] uppercase block mb-2">My Philosophy</span>
+                <h2 class="heading-font text-3xl sm:text-4xl font-extrabold leading-tight">Creativity Backed By Absolute Purpose.</h2>
+            </div>
+            
+            <div class="lg:col-span-7 space-y-6 text-gray-400 text-base sm:text-lg leading-relaxed">
+                <p>
+                    I firmly believe that design shouldn't just look stunning—it needs to communicate flawlessly. Every element placed on a blank canvas, from typography hierarchies to precision grid configurations, has a functional role to play.
+                </p>
+                <p>
+                    Whether working on an executive brand system or high-impact marketing collateral, my approach values absolute strategic perfection and seamless communication pipelines. I strive to execute modern workflows with clients that transform digital concepts into iconic digital standard assets.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <footer id="contact" class="bg-[#141414] border-t border-white/5 pt-24 pb-12 relative overflow-hidden">
+        <!-- Accent light source -->
+        <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[500px] h-[200px] bg-[#00F2FE]/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="heading-font text-4xl sm:text-5xl font-extrabold mb-6">Let’s Build Something <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#00F2FE] to-[#4FACFE]">Impactful Together.</span></h2>
+                <p class="text-gray-400 mb-10 text-sm sm:text-base">Get in touch for freelance collaborations, project bookings, or full-time strategic contract roles.</p>
+                
+                <!-- Contact Channels -->
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+                    <!-- Email Badge -->
+                    <a href="mailto:hasibworkwith@gmail.com" class="w-full sm:w-auto bg-[#1A1A1A] hover:bg-[#222222] border border-white/10 px-6 py-4 rounded-2xl flex items-center justify-center gap-3 transition">
+                        <svg class="w-5 h-5 text-[#00F2FE]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        <span class="text-sm font-medium">hasibworkwith@gmail.com</span>
+                    </a>
+                    
+                    <!-- WhatsApp Badge -->
+                    <a href="https://wa.me/8801629403147" target="_blank" class="w-full sm:w-auto bg-[#1A1A1A] hover:bg-[#222222] border border-white/10 px-6 py-4 rounded-2xl flex items-center justify-center gap-3 transition">
+                        <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12.004 0C5.378 0 0 5.374 0 12c0 2.112.551 4.165 1.597 5.973L0 24l6.19-1.623c1.745.952 3.71 1.455 5.81 1.455 6.626 0 12.004-5.375 12.004-12 0-3.212-1.249-6.233-3.513-8.497C18.228 1.251 15.212 0 12.004 0zm6.96 16.945c-.286.804-1.42 1.47-1.96 1.524-.54.054-1.21.082-1.93-.148-.44-.142-1.012-.355-1.72-.656-2.99-1.272-4.928-4.32-5.077-4.52-.15-.2-1.213-1.615-1.213-3.08 0-1.467.768-2.188 1.04-2.484.272-.296.594-.37.792-.37.2 0 .396.002.57.01.18.007.423-.068.66.5.24.58.817 1.99.89 2.138.072.148.12.32.02.518-.1.2-.22.34-.37.518-.15.18-.314.4-.446.536-.145.15-.297.313-.128.602.168.288.746 1.233 1.6 1.996.735.656 1.353.86 1.65.98.297.12.472.102.65-.1.178-.204.767-.892.973-1.197.206-.305.412-.255.694-.15.28.103 1.785.842 2.09.995.308.154.513.23.587.354.074.124.074.72-.21 1.524z"/></svg>
+                        <span class="text-sm font-medium">+8801629403147</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Footer Bottom Grid -->
+            <div class="border-t border-white/5 pt-12 flex flex-col sm:flex-row justify-between items-center gap-6">
+                <!-- Copyright -->
+                <div class="text-xs text-gray-500 text-center sm:text-left">
+                    &copy; 2026 Hasibur Rahman. All rights reserved. Built for visual impact.
+                </div>
+                
+                <!-- Social Media Anchors (Requested: Behance, FB, Insta) -->
+                <div class="flex items-center space-x-6">
+                    <!-- Behance -->
+                    <a href="https://www.behance.net/YOUR_USERNAME" target="_blank" class="text-gray-400 hover:text-[#00F2FE] transition text-sm font-semibold">
+                        Behance
+                    </a>
+                    
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/YOUR_USERNAME" target="_blank" class="text-gray-400 hover:text-[#00F2FE] transition text-sm font-semibold">
+                        Facebook
+                    </a>
+                    
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/YOUR_USERNAME" target="_blank" class="text-gray-400 hover:text-[#00F2FE] transition text-sm font-semibold">
+                        Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
